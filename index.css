@@ -39,16 +39,20 @@ body{
     color:#B85042;
     
 }
-.button{
+#button{
     display: flex;
+    padding: 5px;
+    border: 15px #A7BEAE;
+    border-radius: 10px ;
+
 
 }
-#break{
+.break{
 margin-left: 1100px;
 }
 
 @media (max-width: 800px) {
-    .button {
+    #button {
       flex-direction: column;
     }
   }
