@@ -50,7 +50,8 @@ body{
 .break{
 margin-left: 1100px;
 }
-
+/*CSS Flex Responsive
+https://www.w3schools.com/css/css3_flexbox_responsive.asp*/
 @media (max-width: 800px) {
     #button {
       flex-direction: column;
